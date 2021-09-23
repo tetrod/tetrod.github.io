@@ -4,4 +4,5 @@
   title: 'About'
 }
 ---
-there's something about
+# {{title}}
+There's something about it

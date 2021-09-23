@@ -4,4 +4,5 @@
   title: 'TETROD'
 }
 ---
-# {{ title }}
+[About](about)
+# {{title}}
