@@ -1,20 +1,17 @@
 'use strict';
 
-module.exports = (eleventyConfig) => {
-  // Copy the "assets" directory to the compiled "_site" folder.
-  eleventyConfig.addPassthroughCopy('assets');
+module.exports = cfg => {
+
+  cfg.addPassthroughCopy('./src/css');
 
   return {
     dir: {
-      input: './',
+      input: './src',
       output: './build',
-      layouts: './_layouts',
+      layouts: './includes',
     },
     templateFormats: [
-      'html',
-      'liquid',
-      'md',
-      'njk',
+      'md'
     ]
   };
 };
