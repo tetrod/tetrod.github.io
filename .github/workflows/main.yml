@@ -10,14 +10,11 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
 
-      - name: Install and Build 🔧
-        run: |
-          npm i
-          npm run build
+      - name: Install
+        run: npm i
 
-      - name: publish pages 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          repository-name: tetrod/portal
-          branch: gh-pages
-          folder: build
+      - name: Build 🔧
+        run: npm run build
+
+      - name: Deploy pages 🚀
+        run: npm run deploy
