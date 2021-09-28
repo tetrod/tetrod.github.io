@@ -1,11 +1,10 @@
 'use strict';
 
 exports.data = {
-  title: 'TET'
+  title: 'TETROD'
 };
 
 exports.render = function(data) {
-console.log(data.navlist);
 return `<!doctype html><html class="dark" lang="en">
 <head>
   <meta charset="utf-8">

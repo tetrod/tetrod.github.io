@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind:process": "postcss src/scss/main.pcss --o src/css/main.css --watch",
+    "tailwind:process": "postcss src/scss/main.pcss --o src/css/main.css",
     "start": "eleventy --serve --watch",
-    "clean": "rm -rf build",
+    "clean": "rm -rf build src/css/main.css",
     "build": "npm run clean && npm run tailwind:process && eleventy"
   },
   "repository": {
