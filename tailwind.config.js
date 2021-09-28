@@ -3,7 +3,11 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  purge: [],
+  mode: 'jit',
+  purge: [
+    './src/**/*.11ty.js',
+    './src/**/*.md'
+  ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
