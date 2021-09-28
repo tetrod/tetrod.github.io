@@ -1,8 +1,14 @@
 'use strict';
 
-module.exports = cfg => {
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
-  cfg.addPassthroughCopy('./src/css');
+module.exports = eleventyConfig => {
+
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+  eleventyConfig.addPassthroughCopy({
+    './src/css/main.css': '/main.css'
+  });
 
   return {
     dir: {

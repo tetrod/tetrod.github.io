@@ -1,13 +1,11 @@
 ---
+title: Contact us
 layout: page.11ty.js
-title: Home
 eleventyNavigation:
-  key: Home
-  order: 100
+  key: Contact
+  order: 300
 ---
 
-<div class="text-3xl font-extrabold m-8 text-center">
-<span class="text-teal-400">TETROD</span>
-<span>: E = mc&#178;</span>
-</div>
+# {{title}}
+
 Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
