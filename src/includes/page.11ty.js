@@ -27,7 +27,9 @@ const render = (s, body) => onml.stringify(
     .concat([['g', onml.tt(4 * s, 4 * s), body]])
   );
 
-const genLogo = s => render(s, ['g', {stroke: '#fff', fill: 'none' },
+const genLogo = s => render(s, ['g', {
+  stroke: 'hsl(55, 100%, 50%)',
+  fill: 'none' },
   ['path', {'stroke-width': s / 4, d: scaled([
     'm', -2, -1,
     'a', 1, 1, 0, 0, 1, 4, 0,
@@ -69,9 +71,9 @@ return `<!doctype html><html class="dark" lang="en">
   <link rel="stylesheet" href="/assets/main.css"></style>
   <title>${data.title}</title>
 </head>
-<body class="overflow-hidden font-serif text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900">
+<body class="overflow-hidden font-serif text-gray-900 dark:text-white bg-gray-100 dark:bg-black">
   <div class="flex flex-col h-screen">
-    <header class="py-2 text-green-800 dark:text-green-300 bg-gray-200 dark:bg-gray-800">
+    <header class="py-2 text-teal-800 dark:text-teal-300 bg-gray-200 dark:bg-gray-800">
       <nav class="flex text-800">
         ${genLogo(6)}
         <span class="text-xl m-2">TETROD</span>
@@ -81,7 +83,7 @@ return `<!doctype html><html class="dark" lang="en">
           {
             listClass: 'flex',
             listItemClass: 'm-2',
-            anchorClass: ' hover:text-green-500'
+            anchorClass: ' hover:text-teal-500'
           }
         )}
       </nav>
