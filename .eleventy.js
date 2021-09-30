@@ -8,8 +8,10 @@ module.exports = eleventyConfig => {
 
   eleventyConfig.addPassthroughCopy({
     './src/css/main.css': '/assets/main.css',
-    './src/img/sch2.jpg': '/assets/sch2.jpg'
+    './src/img/*.jpg': '/assets/'
   });
+
+  eleventyConfig.addWatchTarget("./src/css");
 
   return {
     dir: {

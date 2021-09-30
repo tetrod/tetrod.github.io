@@ -16,7 +16,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-       'sch2': "url('/assets/sch2.jpg')"
+       sch2: "url('/assets/sch2.jpg')",
+       warm: "url('/assets/warm.jpg')",
+       nano: "url('/assets/nano.jpg')"
       }
     },
     colors
