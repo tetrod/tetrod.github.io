@@ -7,7 +7,8 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPassthroughCopy({
-    './src/css/main.css': '/main.css'
+    './src/css/main.css': '/assets/main.css',
+    './src/img/sch2.jpg': '/assets/sch2.jpg'
   });
 
   return {

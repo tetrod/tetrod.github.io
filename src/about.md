@@ -6,6 +6,7 @@ eleventyNavigation:
   order: 200
 ---
 
-# {{title}}
+<div class="m-8">
 
+# {{title}}
 Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.

@@ -14,7 +14,11 @@ module.exports = {
       serif: ['Jost', 'sans-serif'],
       body: ['Jost', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+       'sch2': "url('/assets/sch2.jpg')"
+      }
+    },
     colors
   },
   variants: {
