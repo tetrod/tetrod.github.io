@@ -9,9 +9,9 @@ eleventyNavigation:
 <div class="flex flex-col">
 
 <!-- block 0 -->
-<div class="bg-sch2 h-full p-4">
+<div class="bg-sch2 h-full">
 
-  <div class="py-16">
+  <div class="py-32">
     <div class="text-4xl font-extrabold text-center">
       <span class="text-teal-400">TETROD</span>
       <span>: E = mc &#178;</span>
@@ -29,7 +29,6 @@ eleventyNavigation:
       </div>
     </span>
     <span class="flex-1"></span>
-
   </div>
 
   <div class="text-1xl font-extrabold m-16 text-center">
@@ -53,14 +52,4 @@ eleventyNavigation:
   </div>
 </div>
 
-
-<!-- <div class="bg-cover bg-sch2 h-screen p-6">
-
-<div class="m-6 text-center">~</div>
-
-
-<div class="mt-32 text-center">~</div>
-
-</div>
-</div> -->
 </div>
