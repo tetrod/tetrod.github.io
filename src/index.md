@@ -9,7 +9,7 @@ eleventyNavigation:
 <div class="flex flex-col">
 
 <!-- block 0 -->
-<div class="bg-sch2 h-full">
+<div class="bg-dc1 h-full">
 
   <div class="py-16">
     <div class="text-4xl font-extrabold text-center">
@@ -42,7 +42,7 @@ eleventyNavigation:
 </div>
 
 <!-- block 1 -->
-<div class="bg-warm bg-cover h-full">
+<div class="bg-dc2 bg-cover h-full">
   <div class="text-2xl p-16 py-40">
     What has been will be again, what has been done will be done again; there is nothing new under the sun.
   </div>
