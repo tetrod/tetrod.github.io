@@ -618,6 +618,15 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(228, 228, 231, var(--tw-bg-opacity));
 }
+.bg-dc1{
+	background-image: url('/assets/dc1.jpg');
+}
+.bg-dc2{
+	background-image: url('/assets/dc2.jpg');
+}
+.bg-nano{
+	background-image: url('/assets/nano.jpg');
+}
 .bg-cover{
 	background-size: cover;
 }
